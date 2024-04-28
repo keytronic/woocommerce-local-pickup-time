@@ -1,14 +1,14 @@
 <?php
 /**
- * Class Local_Pickup_Time_Test
+ * Class Local_Pickup_Time_Plugin_Test
  *
  * @package   Local_Pickup_Time
  */
 
 /**
- * Local Pickup Time test case.
+ * Local Pickup Time plugin test case.
  */
-class Local_Pickup_Time_Test extends WP_UnitTestCase {
+class Local_Pickup_Time_Plugin_Test extends WP_UnitTestCase {
 
 	/**
 	 * Test case setup method.
@@ -29,18 +29,11 @@ class Local_Pickup_Time_Test extends WP_UnitTestCase {
 	}
 
 	/**
-	 * Test plugin get_instance method.
+	 * Test plugin initialization.
 	 *
-	 * @group PublicTests
+	 * @group PluginTests
 	 */
 	public function test_plugin_returns_valid_instance() {
-
-		/**
-		$plugin = new Local_Pickup_Time();
-
-		$this->assertInstanceOf( Local_Pickup_Time::class, $plugin->get_instance() );
-		 */
-
 		$this->assertTrue( true, 'Needs Unit Tests.' );
 	}
 }
